@@ -49,10 +49,16 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+.licence div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .licence a {
     margin-left: 2em;
     margin-bottom: 0.2em;
+    margin-right: 2em;
 }

@@ -12,10 +12,20 @@ function App(props) {
             </div>
             <div className="main">{props.children}</div>
             <footer className="licence">
-                <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank">
-                    Sous licence CC-BY 4.0
+                <div>
+                    <a
+                        href="https://creativecommons.org/licenses/by/4.0/deed.fr"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Sous licence CC-BY 4.0
+                    </a>
+                    <img src={licence} alt="licence"></img>
+                </div>
+
+                <a href="https://github.com/Smar-Ben/test" target="_blank" rel="noreferrer">
+                    Code source
                 </a>
-                <img src={licence}></img>
             </footer>
         </div>
     );
