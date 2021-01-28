@@ -56,9 +56,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+	margin-right: 2em;
+	margin-left: 2em;
+
 }
 .licence a {
-    margin-left: 2em;
-    margin-bottom: 0.2em;
-    margin-right: 2em;
+	margin-right: 2em;
 }

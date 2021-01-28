@@ -22,10 +22,12 @@ function App(props) {
                     </a>
                     <img src={licence} alt="licence"></img>
                 </div>
-
+				<div>
                 <a href="https://github.com/Smar-Ben/test" target="_blank" rel="noreferrer">
                     Code source
                 </a>
+				<p>This site is powered by Netlify</p>
+				</div>
             </footer>
         </div>
     );
